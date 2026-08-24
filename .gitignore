@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts / packaged output
+build/
+dist/
+release/
+*.spec
+DriveSense-source.zip
+
+# Local runtime data - created per-machine, contains real file paths,
+# password hashes, and session secrets. Never version this.
+audit_log.jsonl
+auth_config.json
+cleanup_report.json
+file_index.json
+storage_data.json
+exclusions.json
+scan_manifest.db
+secret.key
+storage_report.html
+storage_report.xlsx
+folder_export.xlsx
+summary_report.pdf
+
+# Editor / tool config
+.claude/
+.vscode/
+.idea/
+
+# OS cruft
+Thumbs.db
+desktop.ini
